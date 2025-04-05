@@ -123,7 +123,7 @@ def run_simulation(num_particles=30, box_size=1.0):
     #fig, ax = plt.subplots()
     #ax = fig.add_subplot(projection='3d')
     fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
-    createSphere(num_particles,xs,ys,zs,0.1)
+    #createSphere(num_particles,xs,ys,zs,0.1)
     ax.scatter(xs, ys, zs)
     ani = FuncAnimation(fig, update, fargs=(particles, box_size, ax),
                       frames=200, interval=50, repeat=False)
