@@ -1,4 +1,5 @@
 # MathSmack
+This project is design to simulate physics between 3 dimensional balls in a box using python and matplotlib 
 
 ## How to use it 
 Before anything, make sure that you have 
@@ -10,6 +11,3 @@ Before anything, make sure that you have
 
 you can then run this following command 
 ```python sphereSimulation.py ```
-
-
-When in the program, you can also drag around to view different angles of the simulation
